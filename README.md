@@ -38,7 +38,7 @@
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,typescript,express,firebase,mongodb,c,java" /><br>
-    <img src="https://skillicons.dev/icons?i=react,r,bootstrap,mui,mysql,flask,html,css,vscode,figma,git,Spark, SQL y NoSQL, Python, Jupyter, Git, Herramientas ETL, APIs de datos, Solución Data Warehouse" />
+    <img src="https://skillicons.dev/icons?i=react,r,bootstrap,mui,mysql,flask,html,css,vscode,figma,git,Spark,SQL,NoSQL,Python,Jupyter,Git,azure" />
 </div>
 
 <br/>
