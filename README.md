@@ -27,7 +27,7 @@
   <a href="https://www.linkedin.com/in/vivianlafarina/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href=https://github.com/VivianLaFarina" target="_blank">
+  <a href="https://github.com/VivianLaFarina" target="_blank">
      <img src="http://maps.apple.com/?address=Portfolio%20https://vivianlf.netlify.app/" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 </div>
