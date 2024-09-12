@@ -16,7 +16,7 @@
 
  💬 Ask me about **SQL, PowerBI, Python, Docker, Kubernetes, Apache Spark, Node.js, React, Firebase, MongoDB... or anything [here](https://github.com/salesp07/salesp07/issues)**
 
- ⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
+ ⚡ Fun fact **Game of Thrones - What good is power if you cannot protect the ones you love?**
  
  </div>
  
