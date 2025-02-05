@@ -4,7 +4,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Vivian+La+Farina!;" />
 </h1>
 
-<h3 align="center">A passionate Data Programmer/developer from Colombia 🇨🇴</h3>
+<h3 align="center">A passionate developer from Colombia 🇨🇴</h3>
 
 <br/>
 
@@ -12,7 +12,7 @@
  
  🔭 I’m currently working on **a chat app**
  
- 🌱 I’m currently learning ** Tailwind, React Native Expo**
+ 🌱 I’m currently learning ** Next.Js **
 
  💬 Ask me about **SQL, PowerBI, Python, Docker, Kubernetes, Node.js, React, Firebase, MongoDB... or anything [here](https://github.com/salesp07/salesp07/issues)**
 
