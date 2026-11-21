@@ -20,8 +20,8 @@ I’m an **IT Data Project Lead** focused on medtech and global supply chain. I 
 Across my career, I’ve contributed to **40+ delivered projects** with impact in Colombia and internationally.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/regional-mesh-static.png" />
-  <img src="./assets/regional-mesh.gif" width="1000" alt="An organic data mesh connects the Americas, EMEA, and APAC." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./GitHub-Vivian-Lima-4-Animaciones/assets/regional-mesh-static.png" />
+  <img src="./GitHub-Vivian-Lima-4-Animaciones/assets/regional-mesh.gif" width="1000" alt="An organic data mesh connects the Americas, EMEA, and APAC." />
 </picture>
 
 ```text
@@ -59,8 +59,8 @@ Led onboarding for **50 professionals** across disciplines, coordinating role-sp
 **Local prototype · Synthetic ERP data only · Python, SQL, SQLite**
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/supplier-ascii-static.png" />
-  <img src="./assets/supplier-ascii.gif" width="1000" alt="Synthetic supplier data is normalized and matched by country and tax ID. Expected outputs: two canonical suppliers, one review case, and four traceable source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./GitHub-Vivian-Lima-4-Animaciones/assets/supplier-ascii-static.png" />
+  <img src="./GitHub-Vivian-Lima-4-Animaciones/assets/supplier-ascii.gif" width="1000" alt="Synthetic supplier data is normalized and matched by country and tax ID. Expected outputs: two canonical suppliers, one review case, and four traceable source rows." />
 </picture>
 
 **Business problem:** Two ERP systems can assign different IDs to the same supplier. Duplicates fragment spend reporting, but false merges can make the data less trustworthy. The lab uses a conservative matching rule and a review queue for exceptions.
@@ -93,8 +93,8 @@ flowchart LR
 ## Technology stack
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/technology-stack-static.png" />
-  <img src="./assets/technology-stack.gif" width="1000" alt="Animated tech stack: Planisware, Jira and Confluence for delivery and governance; SAP master data, SQL and Power BI for enterprise data and analytics; Azure, Snowflake and Microsoft Fabric for cloud learning and labs." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./GitHub-Vivian-Lima-4-Animaciones/assets/technology-stack-static.png" />
+  <img src="./GitHub-Vivian-Lima-4-Animaciones/assets/technology-stack.gif" width="1000" alt="Animated tech stack: Planisware, Jira and Confluence for delivery and governance; SAP master data, SQL and Power BI for enterprise data and analytics; Azure, Snowflake and Microsoft Fabric for cloud learning and labs." />
 </picture>
 
 - **Delivery and governance:** Planisware, Jira, Confluence
