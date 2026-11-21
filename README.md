@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-accent-static.png" />
-    <img src="./signal-cover-accent.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-modern-static.png" />
+    <img src="./signal-cover-modern.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
   </picture>
 </p>
 
@@ -9,14 +9,14 @@
 
 <table width="100%">
   <tr>
-    <td width="34%" valign="middle">
-      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>, from requirements to validation and release.</p>
-    </td>
-    <td width="66%" valign="middle" align="center">
+    <td width="46%" valign="middle" align="center">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-expanded-static.png" />
-        <img src="./data-cubes-expanded.gif" width="485" alt="Scattered data cubes assemble into layers and disperse again." />
+        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-red-static.png" />
+        <img src="./data-cubes-red.gif" width="350" alt="Scattered data cubes assemble into layers and disperse again." />
       </picture>
+    </td>
+    <td width="54%" valign="middle">
+      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>, from requirements to validation and release.</p>
     </td>
   </tr>
 </table>
@@ -40,8 +40,8 @@ Based in Bogotá, Colombia. I travel for work.
 ### Delivery footprint
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-spaced-static.png" />
-  <img src="./delivery-world-spaced.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-red-title-static.png" />
+  <img src="./delivery-world-red-title.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
 </picture>
 
 **Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations, not project deployments.
@@ -62,8 +62,8 @@ Based in Bogotá, Colombia. I travel for work.
 Two ERP systems can list the same supplier under different names and IDs. A false merge can be harder to unwind than a duplicate, so the prototype matches on **country + normalized tax ID**, never on name alone. It retains the source IDs for traceability and routes missing identifiers or conflicting entity types to a review queue.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-accent-static.png" />
-  <img src="./supplier-ascii-accent.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-trace-red-title-static.png" />
+  <img src="./supplier-trace-red-title.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
 </picture>
 
 - **Match boundaries:** The same tax ID in two countries does not merge those suppliers.
@@ -93,8 +93,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-small-titles-static.png" />
-  <img src="./supply-chain-small-titles.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Each active stop lights up yellow." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-reactive-static.png" />
+  <img src="./supply-chain-reactive.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Red checkpoints pulse, and the icons react as the package passes." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
