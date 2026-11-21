@@ -5,21 +5,25 @@
   </picture>
 </p>
 
+# Vivian La Farina
+
+**IT Data Project Lead | SAP Master Data & Global Supply Chain**
+
 <table>
   <tr>
     <td width="61%" valign="middle">
-      <h1>Vivian La Farina</h1>
-      <p><strong>IT Data Project Lead | SAP Master Data & Global Supply Chain</strong></p>
-      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>. I work with regional business teams and global engineering teams to turn data quality issues into requirements, coordinate validation, and prepare changes for release.</p>
+      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>.</p>
     </td>
     <td width="39%" valign="middle" align="center">
       <picture>
         <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-balance-static.png" />
-        <img src="./data-cubes-balance.gif" width="350" alt="Scattered data cubes assemble into layers and disperse again." />
+        <img src="./data-cubes-balance.gif" width="270" alt="Scattered data cubes assemble into layers and disperse again." />
       </picture>
     </td>
   </tr>
 </table>
+
+I work with regional business teams and global engineering teams to turn data quality issues into requirements, coordinate validation, and prepare changes for release.
 
 [Selected work](#selected-work) · [Supplier data lab](#supplier-master-data-lab) · [LinkedIn](https://www.linkedin.com/in/vivianlafarina/) · [Portfolio](https://vivianlf.netlify.app/)
 
@@ -37,10 +41,23 @@ I coordinate remediation of SAP purchasing data where date controls affect which
 
 Based in Bogotá, Colombia. I travel for work.
 
+### Delivery footprint
+
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-accent-static.png" />
-  <img src="./delivery-maps-accent.gif" width="1000" alt="An orange scan moves down three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-pulse-static.png" />
+  <img src="./delivery-maps-pulse.gif" width="1080" alt="Brick-red markers show selected publicly listed offices across the Americas, EMEA, and APAC. The markers do not represent project deployments." />
 </picture>
+
+**Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations, not project deployments.
+
+<details>
+<summary>Countries marked on the map</summary>
+
+- **Americas:** Canada, United States, Mexico, Colombia, Brazil
+- **EMEA:** Ireland, Germany, Switzerland, Saudi Arabia, South Africa
+- **APAC:** Japan, Singapore, Indonesia, Australia
+
+</details>
 
 ## Supplier Master Data Lab
 
@@ -49,24 +66,24 @@ Based in Bogotá, Colombia. I travel for work.
 Two ERP systems can list the same supplier under different names and IDs. A false merge can be harder to unwind than a duplicate, so the prototype matches on **country + normalized tax ID**, never on name alone. It retains the source IDs for traceability and routes missing identifiers or conflicting entity types to a review queue.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-accent-static.png" />
-  <img src="./supplier-ascii-accent.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-readable-static.png" />
+  <img src="./supplier-ascii-readable.gif" width="900" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
 </picture>
 
-| What the prototype checks | What the test demonstrates |
-| :--- | :--- |
-| **Match boundaries** | The same tax ID in two countries does not merge those suppliers. |
-| **Traceability** | The sample produces two canonical suppliers and one review case; all four source rows are accounted for. |
-| **Repeatability** | Rerunning the same input produces identical export files. |
+- **Match boundaries:** The same tax ID in two countries does not merge those suppliers.
+- **Traceability:** Four source rows produce two canonical suppliers and one manual review case; all four source rows are accounted for.
+- **Repeatability:** Rerunning the same input produces identical export files.
 
 ## Tools & platforms
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-accent-static.png" />
-  <img src="./technology-stack-accent.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-readable-static.png" />
+  <img src="./technology-stack-readable.gif" width="900" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
-**Delivery and governance:** Planisware, Jira, Confluence · **Enterprise data and analytics:** SAP master data, SQL, Power BI · **Cloud learning:** Azure, Snowflake, Microsoft Fabric
+- **Delivery and governance:** Planisware, Jira, Confluence
+- **Enterprise data and analytics:** SAP master data, SQL, Power BI
+- **Cloud learning:** Azure, Snowflake, Microsoft Fabric
 
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
 
