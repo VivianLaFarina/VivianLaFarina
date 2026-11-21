@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/signal-cover-static.png" width="1080" alt="Vivian La Farina | IT Data Project Lead" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/signal-cover-static.png" />
+    <img src="./assets/signal-cover.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. Lime waves disperse into particles that assemble the name." />
+  </picture>
 </p>
 
 # Vivian La Farina
