@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-accent-static.png" />
-    <img src="./signal-cover-accent.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
+    <img src="./signal-cover-accent.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
   </picture>
 </p>
 
@@ -12,18 +12,16 @@
 <table>
   <tr>
     <td width="61%" valign="middle">
-      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>.</p>
+      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>, from requirements to validation and release.</p>
     </td>
     <td width="39%" valign="middle" align="center">
       <picture>
         <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-balance-static.png" />
-        <img src="./data-cubes-balance.gif" width="270" alt="Scattered data cubes assemble into layers and disperse again." />
+        <img src="./data-cubes-balance.gif" width="195" alt="Scattered data cubes assemble into layers and disperse again." />
       </picture>
     </td>
   </tr>
 </table>
-
-I work with regional business teams and global engineering teams to turn data quality issues into requirements, coordinate validation, and prepare changes for release.
 
 [Selected work](#selected-work) · [Supplier data lab](#supplier-master-data-lab) · [LinkedIn](https://www.linkedin.com/in/vivianlafarina/) · [Portfolio](https://vivianlf.netlify.app/)
 
@@ -44,8 +42,8 @@ Based in Bogotá, Colombia. I travel for work.
 ### Delivery footprint
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-pulse-static.png" />
-  <img src="./delivery-maps-pulse.gif" width="1080" alt="Brick-red markers show selected publicly listed offices across the Americas, EMEA, and APAC. The markers do not represent project deployments." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-static.png" />
+  <img src="./delivery-world.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
 </picture>
 
 **Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations, not project deployments.
@@ -76,14 +74,19 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 
 ## Tools & platforms
 
+- **Delivery and governance:** Planisware, Jira, Confluence
+- **Enterprise data and analytics:** SAP master data, SQL, Power BI
+- **Cloud learning:** Azure, Snowflake, Microsoft Fabric
+
+<details>
+<summary>View animated technology stack</summary>
+
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-readable-static.png" />
   <img src="./technology-stack-readable.gif" width="900" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
-- **Delivery and governance:** Planisware, Jira, Confluence
-- **Enterprise data and analytics:** SAP master data, SQL, Power BI
-- **Cloud learning:** Azure, Snowflake, Microsoft Fabric
+</details>
 
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
 
