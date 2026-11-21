@@ -1,48 +1,32 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=vivianlafarina.vivianlafarina" />
+# Vivian La Farina
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=650&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Vivian+La+Farina!;" />
-</h1>
+**IT Data Project Lead | Supply Chain Data, Governance & Architecture**  
+Bogotá, Colombia
 
-<h3 align="center">IT Data Project Lead • Cloud & Data Enthusiast 🇨🇴</h3>
+I lead enterprise data initiatives for global supply chain operations, with a focus on SAP master data, data quality, and governance. I work with business and engineering teams to turn operational problems into delivery plans, coordinate architecture reviews, and define how we'll measure results.
 
-<br/>
+## What I work on
 
-<div align="center">
- 
-🔭 Leading IT Data & Enterprise Technology initiatives
+- **Supply chain data:** Supplier and purchasing master data, standardization, and data quality.
+- **Enterprise data delivery:** Cross-functional programs, delivery risks and dependencies, and architecture reviews.
+- **Data architecture:** Integration, data modeling, and governance for cloud data platforms.
 
-🌱 Learning more about Data Architecture, Snowflake, Azure & Microsoft Fabric
+## Portfolio project in development
 
-💬 Skilled in SQL, Power BI, KPI Reporting, Agile, DevOps & Enterprise Projects
+**Supplier Master Data Platform**  
+A hands-on case study using synthetic ERP data to build a trusted supplier master. The first version will consolidate records with matching tax IDs, flag incomplete records for review, and test that reloading the same file does not create duplicates.
 
-⚡ Passionate about building scalable, data-driven business solutions
+**Planned stack:** Python, SQL, and DuckDB.
 
-</div>
+## Tools & platforms
 
-<div align="center"> 
-  <a href="mailto:vivianlafarina@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
+- **Enterprise systems and analytics:** SAP/MDG, SQL, and Power BI.
+- **Cloud data platforms:** Snowflake, Microsoft Fabric, and Azure.
+- **Program delivery:** Planisware, Jira, and Confluence.
 
-  <a href="https://www.linkedin.com/in/vivianlafarina/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+## Connect
 
-  <a href="https://vivianlf.netlify.app/" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" />
-  </a>
-</div>
-
-<hr/>
-
-<h2 align="center">⚒️ Tech Stack ⚒️</h2>
-
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=python,java,mysql,postgres,azure,aws,docker,kubernetes,git,github,vscode" />
-</div>
-
-<br/>
+[LinkedIn](https://www.linkedin.com/in/vivianlafarina/) · [Portfolio](https://vivianlf.netlify.app/)
 
 <div align="center">
 
