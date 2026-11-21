@@ -5,19 +5,17 @@
   </picture>
 </p>
 
-# Vivian La Farina
-
 **IT Data Project Lead | SAP Master Data & Global Supply Chain**
 
-<table>
+<table width="100%">
   <tr>
-    <td width="61%" valign="middle">
+    <td width="34%" valign="middle">
       <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>, from requirements to validation and release.</p>
     </td>
-    <td width="39%" valign="middle" align="center">
+    <td width="66%" valign="middle" align="center">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-balance-static.png" />
-        <img src="./data-cubes-balance.gif" width="195" alt="Scattered data cubes assemble into layers and disperse again." />
+        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-expanded-static.png" />
+        <img src="./data-cubes-expanded.gif" width="485" alt="Scattered data cubes assemble into layers and disperse again." />
       </picture>
     </td>
   </tr>
@@ -42,8 +40,8 @@ Based in Bogotá, Colombia. I travel for work.
 ### Delivery footprint
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-mono-static.png" />
-  <img src="./delivery-world-mono.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-spaced-static.png" />
+  <img src="./delivery-world-spaced.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
 </picture>
 
 **Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations, not project deployments.
@@ -95,8 +93,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-wide-accent-static.png" />
-  <img src="./supply-chain-flow-wide-accent.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Each active stop lights up yellow." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-small-titles-static.png" />
+  <img src="./supply-chain-small-titles.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Each active stop lights up yellow." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
