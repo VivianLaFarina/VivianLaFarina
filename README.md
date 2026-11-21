@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/signal-cover-static.png" />
-    <img src="./assets/signal-cover.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. Lime waves disperse into particles that assemble the name." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-static.png" />
+    <img src="./signal-cover.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. Lime waves disperse into particles that assemble the name." />
   </picture>
 </p>
 
@@ -14,8 +14,8 @@
     </td>
     <td width="39%" valign="middle" align="center">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./assets/particle-runner-static.png" />
-        <img src="./assets/particle-runner.gif" width="350" alt="" />
+        <source media="(prefers-reduced-motion: reduce)" srcset="./particle-runner-static.png" />
+        <img src="./particle-runner.gif" width="350" alt="" />
       </picture>
     </td>
   </tr>
@@ -38,8 +38,8 @@ I coordinate remediation of SAP purchasing data where date controls affect which
 Based in Bogotá, Colombia. I travel for work.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/delivery-maps-static.png" />
-  <img src="./assets/delivery-maps.gif" width="1000" alt="Three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-static.png" />
+  <img src="./delivery-maps.gif" width="1000" alt="Three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
 </picture>
 
 ## Supplier Master Data Lab
@@ -49,8 +49,8 @@ Based in Bogotá, Colombia. I travel for work.
 Two ERP systems can list the same supplier under different names and IDs. A false merge can be harder to unwind than a duplicate, so the prototype matches on **country + normalized tax ID**, never on name alone. It retains the source IDs for traceability and routes missing identifiers or conflicting entity types to a review queue.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/supplier-ascii-static.png" />
-  <img src="./assets/supplier-ascii.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-static.png" />
+  <img src="./supplier-ascii.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
 </picture>
 
 | What the prototype checks | What the test demonstrates |
@@ -62,8 +62,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Tools & platforms
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/technology-stack-static.png" />
-  <img src="./assets/technology-stack.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-static.png" />
+  <img src="./technology-stack.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
 **Delivery and governance:** Planisware, Jira, Confluence · **Enterprise data and analytics:** SAP master data, SQL, Power BI · **Cloud learning:** Azure, Snowflake, Microsoft Fabric
@@ -71,3 +71,17 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
 
 <!-- Schematic regional map artwork made with Natural Earth. -->
+
+
+<details>
+<summary>▶ Soundtrack · Listen on Spotify</summary>
+<ul>
+<li><a href="https://open.spotify.com/track/60kXdgdz1PRqbNQIAEU6s9">Gonna Fly Now (Rocky)</a></li>
+<li><a href="https://open.spotify.com/track/30WNOfFRiqgebO4eRkCii8">GO!!! (Naruto)</a></li>
+<li><a href="https://open.spotify.com/track/1WdkBwAsdznWw9xM69KmvR">Blue Bird (Naruto Shippuden)</a></li>
+<li><a href="https://open.spotify.com/track/0vSVDF2fHaxL2L9eEmRdAK">Clubbed to Death (The Matrix)</a></li>
+<li><a href="https://open.spotify.com/track/0vxvV7Km9447Zy6oewbQ4Y">Born Slippy (Trainspotting)</a></li>
+<li><a href="https://open.spotify.com/track/4Gsim7g0hmacs11Wr0FDCR">Wish (Run Lola Run)</a></li>
+<li><a href="https://open.spotify.com/track/0R6s0WCBfgQ2dByPFSBh63">Los Malaventurados No Lloran (PXNDX)</a></li>
+</ul>
+</details>
