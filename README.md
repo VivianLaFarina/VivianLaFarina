@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-bruno-static.png" />
-    <img src="./signal-cover-bruno.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-bruno-offset-static.png" />
+    <img src="./signal-cover-bruno-offset.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that directly assemble the name in Bruno Ace." />
   </picture>
 </p>
 
@@ -77,8 +77,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 - **Cloud learning:** Azure, Snowflake, Microsoft Fabric
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-accent-static.png" />
-  <img src="./technology-stack-accent.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-red-static.png" />
+  <img src="./technology-stack-red.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
@@ -88,8 +88,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-stop-and-spin-static.png" />
-  <img src="./supply-chain-stop-and-spin.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box rotates and stops for two seconds at each station. Only the active checkpoint pulses red; the others stay white." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-trail-static.png" />
+  <img src="./supply-chain-trail.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box leaves an ember trail, rotates, and stops for two seconds at each station. Only the active checkpoint pulses red; the others stay white." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
