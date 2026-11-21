@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>En rotación | Vivian La Farina</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0d0a;--panel:#121610;--line:#343d27;--ink:#f5f6ef;--soft:#bac2ad;--lime:#cff630}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif}
+main{width:min(100% - 2rem,60rem);margin:0 auto;padding:clamp(2rem,6vw,5rem) 0}
+nav,small,.tag,.seq{font-family:ui-monospace,monospace;letter-spacing:.09em}
+a{color:var(--lime)} a:hover{text-decoration-thickness:2px}
+header{border-bottom:1px solid var(--line);padding:2.5rem 0 1.7rem}
+.tag{color:var(--lime);font-size:.78rem}
+h1{font-size:clamp(3rem,8vw,6rem);letter-spacing:-.065em;line-height:1;margin:.4rem 0 1rem}
+p{color:var(--soft);line-height:1.5} header p{margin-bottom:0}
+.layout{display:grid;grid-template-columns:1.1fr 1fr;gap:1rem;margin-top:1.25rem}
+ol{list-style:none;padding:0;margin:0;display:grid;gap:.4rem}
+button{width:100%;padding:.75rem;background:var(--panel);border:1px solid var(--line);border-radius:.3rem;color:var(--ink);text-align:left;display:grid;grid-template-columns:2.4rem 1fr 1rem;align-items:center;gap:.4rem;cursor:pointer;font:inherit}
+button:hover,button[aria-current=true]{border-color:var(--lime)} button[aria-current=true] .seq,button:hover .pick{color:var(--lime)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.seq,.pick{color:var(--soft);font-size:.76rem}.title{display:block;font-weight:750;line-height:1.15}.credits{display:block;color:var(--soft);font-size:.8rem;margin-top:.23rem}
+#player{align-self:start;background:var(--panel);border:1px solid var(--line);border-radius:.3rem;padding:1rem;min-height:12.5rem}
+#player h2{margin:.25rem 0 .5rem;line-height:1.18}
+iframe{border:0;width:100%;height:152px;border-radius:.55rem;display:block;margin:.75rem 0}
+@media(max-width:720px){main{width:calc(100% - 1rem)}.layout{grid-template-columns:1fr}#player{grid-row:1;padding:.5rem}}
+</style>
+</head>
+<body>
+<main>
+<nav aria-label="Portafolio"><a href="https://vivianlf.netlify.app/">← Portafolio de Vivian</a></nav>
+<header>
+  <div class="tag">VLF / SOUNDTRACK / 07 PISTAS</div>
+  <h1>En rotación<span style="color:var(--lime)">.</span></h1>
+  <p>Bandas sonoras, openings y rock mexicano. Elige una pista y dale play.</p>
+</header>
+<div class="layout">
+  <ol id="tracks" aria-label="Canciones"></ol>
+  <section id="player" aria-label="Reproductor de Spotify">
+    <div class="tag">SPOTIFY / REPRODUCCIÓN MANUAL</div>
+    <h2 id="selection" aria-live="polite">Elige una canción</h2>
+    <div id="embed"></div>
+    <p id="fallback">La música no empieza automáticamente.</p>
+  </section>
+</div>
+</main>
+<script>
+const tracks = [
+ ['60kXdgdz1PRqbNQIAEU6s9','Gonna Fly Now','Bill Conti','Rocky'],
+ ['30WNOfFRiqgebO4eRkCii8','GO!!!','FLOW','Naruto'],
+ ['1WdkBwAsdznWw9xM69KmvR','Blue Bird','Ikimonogakari','Naruto Shippuden'],
+ ['0vSVDF2fHaxL2L9eEmRdAK','Clubbed to Death (Kurayamino Variation)','Rob Dougan','The Matrix'],
+ ['0vxvV7Km9447Zy6oewbQ4Y','Born Slippy (Nuxx)','Underworld','Trainspotting'],
+ ['4Gsim7g0hmacs11Wr0FDCR','Wish (Komm zu mir)','Thomas D feat. Franka Potente','Run Lola Run'],
+ ['0R6s0WCBfgQ2dByPFSBh63','Los Malaventurados No Lloran','PXNDX','Amantes Sunt Amentes']
+];
+const list = document.getElementById('tracks');
+const selection = document.getElementById('selection');
+const embed = document.getElementById('embed');
+const fallback = document.getElementById('fallback');
+const make = (tag, text, className) => {
+  const el = document.createElement(tag);
+  el.textContent = text;
+  if (className) el.className = className;
+  return el;
+};
+for (const [i, [id,title,artist,album]] of tracks.entries()) {
+  const row = make('li','');
+  const button = make('button','');
+  button.type = 'button';
+  button.setAttribute('aria-controls','player');
+  const details = make('span','');
+  details.append(make('span',title,'title'),make('span',artist+' · '+album,'credits'));
+  const chevron = make('span','›','pick');
+  chevron.setAttribute('aria-hidden','true');
+  button.append(make('span',String(i+1).padStart(2,'0'),'seq'),details,chevron);
+  button.addEventListener('click', () => {
+    if (button.getAttribute('aria-current') === 'true') return;
+    list.querySelector('[aria-current]')?.removeAttribute('aria-current');
+    button.setAttribute('aria-current','true');
+    selection.textContent = title;
+    const frame = make('iframe','');
+    frame.title = 'Spotify: '+title;
+    frame.src = 'https://open.spotify.com/embed/track/'+id;
+    frame.allow = 'clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+    embed.replaceChildren(frame);
+    const link = make('a','Abrir en Spotify');
+    link.href = 'https://open.spotify.com/track/'+id;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    fallback.replaceChildren(link);
+    if (window.matchMedia('(max-width: 720px)').matches) {
+      document.getElementById('player').scrollIntoView({ block: 'start' });
+    }
+  });
+  row.append(button);
+  list.append(row);
+}
+</script>
+</body>
+</html>

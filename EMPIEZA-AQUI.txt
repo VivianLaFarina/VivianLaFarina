@@ -1,0 +1,13 @@
+ANIMACIONES Y MÚSICA | VIVIAN LA FARINA
+
+GitHub: abre la carpeta GitHub y sube lo que está dentro (README.md y assets)
+a la raíz de tu repositorio de perfil. Pulsa Commit changes.
+https://github.com/VivianLaFarina/VivianLaFarina/upload/main
+
+Música: abre Portafolio/soundtrack.html en tu navegador y elige una canción.
+El reproductor necesita internet. No hay reproducción automática.
+El HTML es para tu portafolio web, no para el README de GitHub.
+Ve el reproductor localmente antes de publicarlo en tu portafolio.
+
+No se incluye ninguna foto de perfil. El GIF del rostro es una animación
+de partículas, no la foto retocada.
