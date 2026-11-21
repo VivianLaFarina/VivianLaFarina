@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-modern-static.png" />
-    <img src="./signal-cover-modern.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-bruno-static.png" />
+    <img src="./signal-cover-bruno.gif" width="900" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
   </picture>
 </p>
 
@@ -40,11 +40,11 @@ Based in Bogotá, Colombia. I travel for work.
 ### Delivery footprint
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-red-title-static.png" />
-  <img src="./delivery-world-red-title.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-arcs-static.png" />
+  <img src="./delivery-world-arcs.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. A faint arc travels between selected publicly listed offices. Neither dots nor arcs indicate project deployments." />
 </picture>
 
-**Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations, not project deployments.
+**Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations; the animated connections are illustrative and do not represent project deployments.
 
 <details>
 <summary>Countries marked on the map</summary>
@@ -76,15 +76,10 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 - **Enterprise data and analytics:** SAP master data, SQL, Power BI
 - **Cloud learning:** Azure, Snowflake, Microsoft Fabric
 
-<details>
-<summary>View animated technology stack</summary>
-
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-accent-static.png" />
   <img src="./technology-stack-accent.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
-
-</details>
 
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
 
@@ -93,8 +88,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-reactive-static.png" />
-  <img src="./supply-chain-reactive.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Red checkpoints pulse, and the icons react as the package passes." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-stop-and-spin-static.png" />
+  <img src="./supply-chain-stop-and-spin.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box rotates and stops for two seconds at each station. Only the active checkpoint pulses red; the others stay white." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
