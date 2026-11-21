@@ -77,8 +77,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 - **Cloud learning:** Azure, Snowflake, Microsoft Fabric
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-red-static.png" />
-  <img src="./technology-stack-red.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-red-checkpoints-static.png" />
+  <img src="./technology-stack-red-checkpoints.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning. Checkpoints turn red in order and stay red until the stack animation restarts." />
 </picture>
 
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
@@ -88,8 +88,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-trail-static.png" />
-  <img src="./supply-chain-trail.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box leaves an ember trail, rotates, and stops for two seconds at each station. Only the active checkpoint pulses red; the others stay white." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-compact-trail-static.png" />
+  <img src="./supply-chain-compact-trail.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box leaves an ember trail, rotates, and stops for two seconds at each station. Only the active checkpoint pulses red; the others stay white." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
