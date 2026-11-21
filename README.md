@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-static.png" />
-    <img src="./signal-cover.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. Lime waves disperse into particles that assemble the name." />
+    <img src="./signal-cover.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. White waves break into particles that assemble the name." />
   </picture>
 </p>
 
@@ -73,7 +73,10 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 <!-- Schematic regional map artwork made with Natural Earth. -->
 
 
-<details>
+<table>
+  <tr>
+    <td width="46%" valign="middle">
+<details open>
 <summary>▶ Soundtrack · Listen on Spotify</summary>
 <ul>
 <li><a href="https://open.spotify.com/track/60kXdgdz1PRqbNQIAEU6s9">Gonna Fly Now (Rocky)</a></li>
@@ -85,3 +88,12 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 <li><a href="https://open.spotify.com/track/0R6s0WCBfgQ2dByPFSBh63">Los Malaventurados No Lloran (PXNDX)</a></li>
 </ul>
 </details>
+    </td>
+    <td width="54%" valign="middle" align="center">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-static.png" />
+        <img src="./supply-chain-flow.gif" width="410" alt="A purchase order becomes a package moving through a warehouse, transit, and delivery." />
+      </picture>
+    </td>
+  </tr>
+</table>
