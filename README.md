@@ -5,20 +5,23 @@
   </picture>
 </p>
 
-# Vivian La Farina
-
-**IT Data Project Lead | SAP Master Data & Global Supply Chain**
-
-I lead supplier and purchasing data initiatives in medtech across the **Americas, EMEA, and APAC**. I work with regional business teams and global engineering teams to turn data quality issues into requirements, coordinate validation, and prepare changes for release.
+<table>
+  <tr>
+    <td width="61%" valign="middle">
+      <h1>Vivian La Farina</h1>
+      <p><strong>IT Data Project Lead | SAP Master Data & Global Supply Chain</strong></p>
+      <p>I lead supplier and purchasing data initiatives in medtech across the <strong>Americas, EMEA, and APAC</strong>. I work with regional business teams and global engineering teams to turn data quality issues into requirements, coordinate validation, and prepare changes for release.</p>
+    </td>
+    <td width="39%" valign="middle" align="center">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="./assets/particle-runner-static.png" />
+        <img src="./assets/particle-runner.gif" width="350" alt="" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
 [Selected work](#selected-work) · [Supplier data lab](#supplier-master-data-lab) · [LinkedIn](https://www.linkedin.com/in/vivianlafarina/) · [Portfolio](https://vivianlf.netlify.app/)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/particle-face-static.png" />
-    <img src="./assets/particle-face.gif" width="1000" alt="" />
-  </picture>
-</p>
 
 ## Selected work
 
@@ -35,8 +38,8 @@ I coordinate remediation of SAP purchasing data where date controls affect which
 Based in Bogotá, Colombia. I travel for work.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/regional-mesh-static.png" />
-  <img src="./assets/regional-mesh.gif" width="1000" alt="Delivery network connecting Americas, EMEA, and APAC." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/delivery-maps-static.png" />
+  <img src="./assets/delivery-maps.gif" width="1000" alt="Three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
 </picture>
 
 ## Supplier Master Data Lab
@@ -66,3 +69,5 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 **Delivery and governance:** Planisware, Jira, Confluence · **Enterprise data and analytics:** SAP master data, SQL, Power BI · **Cloud learning:** Azure, Snowflake, Microsoft Fabric
 
 <!-- Technology marks identify their respective products. Artwork: Simple Icons, Devicon, Planisware, and Microsoft Learn. -->
+
+<!-- Schematic regional map artwork made with Natural Earth. -->
