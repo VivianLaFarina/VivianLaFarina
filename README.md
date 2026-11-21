@@ -42,8 +42,8 @@ Based in Bogotá, Colombia. I travel for work.
 ### Delivery footprint
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-static.png" />
-  <img src="./delivery-world.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-world-mono-static.png" />
+  <img src="./delivery-world-mono.gif" width="1040" alt="One world map highlights the Americas, EMEA, and APAC. Red markers identify selected publicly listed offices, not project deployments." />
 </picture>
 
 **Project scope:** Americas, EMEA, and APAC. Red dots show selected publicly listed office locations, not project deployments.
@@ -64,8 +64,8 @@ Based in Bogotá, Colombia. I travel for work.
 Two ERP systems can list the same supplier under different names and IDs. A false merge can be harder to unwind than a duplicate, so the prototype matches on **country + normalized tax ID**, never on name alone. It retains the source IDs for traceability and routes missing identifiers or conflicting entity types to a review queue.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-readable-static.png" />
-  <img src="./supplier-ascii-readable.gif" width="900" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-accent-static.png" />
+  <img src="./supplier-ascii-accent.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
 </picture>
 
 - **Match boundaries:** The same tax ID in two countries does not merge those suppliers.
@@ -82,8 +82,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 <summary>View animated technology stack</summary>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-readable-static.png" />
-  <img src="./technology-stack-readable.gif" width="900" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-accent-static.png" />
+  <img src="./technology-stack-accent.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
 </details>
