@@ -8,6 +8,7 @@
 <p align="center">
   <a href="#delivery-scope">Delivery scope</a> ·
   <a href="#supplier-master-data-lab">Architecture lab</a> ·
+  <a href="#technology-stack">Technology stack</a> ·
   <a href="https://www.linkedin.com/in/vivianlafarina/">LinkedIn</a> ·
   <a href="https://vivianlf.netlify.app/">Portfolio</a>
 </p>
@@ -17,6 +18,11 @@
 I’m an **IT Data Project Lead** focused on medtech and global supply chain. I lead enterprise data workstreams across the **Americas, EMEA, and APAC**, translating supplier and purchasing data requirements into delivery plans and coordinating architecture reviews, validation, and handoffs.
 
 Across my career, I’ve contributed to **40+ delivered projects** with impact in Colombia and internationally.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/regional-mesh-static.png" />
+  <img src="./assets/regional-mesh.gif" width="1000" alt="An organic data mesh connects the Americas, EMEA, and APAC." />
+</picture>
 
 ```text
 DATA DELIVERY CONSOLE
@@ -50,7 +56,12 @@ Led onboarding for **50 professionals** across disciplines, coordinating role-sp
 
 ## Supplier Master Data Lab
 
-**In development · Synthetic ERP data only · Python, SQL, DuckDB**
+**Local prototype · Synthetic ERP data only · Python, SQL, SQLite**
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/supplier-ascii-static.png" />
+  <img src="./assets/supplier-ascii.gif" width="1000" alt="Synthetic supplier data is normalized and matched by country and tax ID. Expected outputs: two canonical suppliers, one review case, and four traceable source rows." />
+</picture>
 
 **Business problem:** Two ERP systems can assign different IDs to the same supplier. Duplicates fragment spend reporting, but false merges can make the data less trustworthy. The lab uses a conservative matching rule and a review queue for exceptions.
 
@@ -79,9 +90,20 @@ flowchart LR
 
 **First acceptance test:** Four synthetic rows should yield **two canonical suppliers and one review case**, with all four source rows accounted for. These are expected results, not production metrics.
 
-<details>
-<summary><strong>Tools and platforms</strong></summary>
+## Technology stack
 
-SAP master data · Planisware · Jira · Confluence · SQL · Power BI · Snowflake · Azure · Microsoft Fabric
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/technology-stack-static.png" />
+  <img src="./assets/technology-stack.gif" width="1000" alt="Animated tech stack: Planisware, Jira and Confluence for delivery and governance; SAP master data, SQL and Power BI for enterprise data and analytics; Azure, Snowflake and Microsoft Fabric for cloud learning and labs." />
+</picture>
 
-</details>
+- **Delivery and governance:** Planisware, Jira, Confluence
+- **Enterprise data and analytics:** SAP master data, SQL, Power BI
+- **Cloud learning and labs:** Azure, Snowflake, Microsoft Fabric
+
+<!--
+Technology marks identify their respective products.
+Icon artwork: Simple Icons (SAP, Jira, Confluence, Snowflake, Power BI),
+Devicon (Azure), Planisware, and Microsoft Learn (Microsoft Fabric).
+SQL uses a generic database pictogram.
+-->
