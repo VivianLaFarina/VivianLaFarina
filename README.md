@@ -88,8 +88,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-compact-trail-static.png" />
-  <img src="./supply-chain-compact-trail.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box leaves an ember trail, rotates, and stops for two seconds at each station. Only the active checkpoint pulses red; the others stay white." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-small-parcel-static.png" />
+  <img src="./supply-chain-small-parcel.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. The box leaves an ember trail, rotates, and stops for two seconds at each station. Each checkpoint turns red when the box arrives and stays red until the animation restarts." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
