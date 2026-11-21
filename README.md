@@ -72,28 +72,11 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 
 <!-- Schematic regional map artwork made with Natural Earth. -->
 
+## Supply chain
 
-<table>
-  <tr>
-    <td width="46%" valign="middle">
-<details open>
-<summary>▶ Soundtrack · Listen on Spotify</summary>
-<ul>
-<li><a href="https://open.spotify.com/track/60kXdgdz1PRqbNQIAEU6s9">Gonna Fly Now (Rocky)</a></li>
-<li><a href="https://open.spotify.com/track/30WNOfFRiqgebO4eRkCii8">GO!!! (Naruto)</a></li>
-<li><a href="https://open.spotify.com/track/1WdkBwAsdznWw9xM69KmvR">Blue Bird (Naruto Shippuden)</a></li>
-<li><a href="https://open.spotify.com/track/0vSVDF2fHaxL2L9eEmRdAK">Clubbed to Death (The Matrix)</a></li>
-<li><a href="https://open.spotify.com/track/0vxvV7Km9447Zy6oewbQ4Y">Born Slippy (Trainspotting)</a></li>
-<li><a href="https://open.spotify.com/track/4Gsim7g0hmacs11Wr0FDCR">Wish (Run Lola Run)</a></li>
-<li><a href="https://open.spotify.com/track/0R6s0WCBfgQ2dByPFSBh63">Los Malaventurados No Lloran (PXNDX)</a></li>
-</ul>
-</details>
-    </td>
-    <td width="54%" valign="middle" align="center">
-      <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-balance-static.png" />
-        <img src="./supply-chain-flow-balance.gif" width="410" alt="An orange package moves through purchase order, warehouse, transit, and delivery; each stop lights up yellow." />
-      </picture>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-wide-static.png" />
+  <img src="./supply-chain-flow-wide.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Each active stop lights up yellow." />
+</picture>
+
+**Purchase order** → **Warehouse** → **Transit** → **Delivery**
