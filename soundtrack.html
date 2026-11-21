@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>En rotación | Vivian La Farina</title>
-<style>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>En rotación | Vivian La Farina</title><style>
 :root{color-scheme:dark;--bg:#0b0d0a;--panel:#121610;--line:#343d27;--ink:#f5f6ef;--soft:#bac2ad;--lime:#cff630}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif}
@@ -25,78 +21,52 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--lime);outline-offse
 #player h2{margin:.25rem 0 .5rem;line-height:1.18}
 iframe{border:0;width:100%;height:152px;border-radius:.55rem;display:block;margin:.75rem 0}
 @media(max-width:720px){main{width:calc(100% - 1rem)}.layout{grid-template-columns:1fr}#player{grid-row:1;padding:.5rem}}
-</style>
-</head>
-<body>
-<main>
+
+.track{display:grid;grid-template-columns:1fr auto;gap:.4rem;align-items:stretch}.spotify{display:flex;align-items:center;border:1px solid var(--line);border-radius:.3rem;padding:.5rem .75rem;text-decoration:none;font-size:.82rem}.spotify:hover{border-color:var(--lime)} .select{text-decoration:none;color:var(--ink);font-weight:700}.pick{min-width:.9rem}.layout[hidden],button[hidden],.embed-only[hidden]{display:none}@media(max-width:415px){.spotify{padding:.4rem;font-size:.75rem}}</style></head>
+<body><main>
 <nav aria-label="Portafolio"><a href="https://vivianlf.netlify.app/">← Portafolio de Vivian</a></nav>
 <header>
   <div class="tag">VLF / SOUNDTRACK / 07 PISTAS</div>
   <h1>En rotación<span style="color:var(--lime)">.</span></h1>
-  <p>Bandas sonoras, openings y rock mexicano. Elige una pista y dale play.</p>
+  <p>Bandas sonoras, openings y rock mexicano. Abre una canción en Spotify y pulsa ▶.</p>
 </header>
-<div class="layout">
-  <ol id="tracks" aria-label="Canciones"></ol>
-  <section id="player" aria-label="Reproductor de Spotify">
-    <div class="tag">SPOTIFY / REPRODUCCIÓN MANUAL</div>
-    <h2 id="selection" aria-live="polite">Elige una canción</h2>
-    <div id="embed"></div>
-    <p id="fallback">La música no empieza automáticamente.</p>
-  </section>
-</div>
-</main>
+
+<div class="layout" id="layout"><ol id="tracks" aria-label="Canciones"><li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="60kXdgdz1PRqbNQIAEU6s9" data-title="Gonna Fly Now" hidden><span class="seq">01</span><span><span class="title">Gonna Fly Now</span><span class="credits">Bill Conti · Rocky</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/60kXdgdz1PRqbNQIAEU6s9"><span class="direct-title">Gonna Fly Now · </span>&nbsp;Abrir en Spotify ↗</a></li>
+<li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="30WNOfFRiqgebO4eRkCii8" data-title="GO!!!" hidden><span class="seq">02</span><span><span class="title">GO!!!</span><span class="credits">FLOW · Naruto</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/30WNOfFRiqgebO4eRkCii8"><span class="direct-title">GO!!! · </span>&nbsp;Abrir en Spotify ↗</a></li>
+<li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="1WdkBwAsdznWw9xM69KmvR" data-title="Blue Bird" hidden><span class="seq">03</span><span><span class="title">Blue Bird</span><span class="credits">Ikimonogakari · Naruto Shippuden</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/1WdkBwAsdznWw9xM69KmvR"><span class="direct-title">Blue Bird · </span>&nbsp;Abrir en Spotify ↗</a></li>
+<li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="0vSVDF2fHaxL2L9eEmRdAK" data-title="Clubbed to Death (Kurayamino Variation)" hidden><span class="seq">04</span><span><span class="title">Clubbed to Death (Kurayamino Variation)</span><span class="credits">Rob Dougan · The Matrix</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/0vSVDF2fHaxL2L9eEmRdAK"><span class="direct-title">Clubbed to Death (Kurayamino Variation) · </span>&nbsp;Abrir en Spotify ↗</a></li>
+<li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="0vxvV7Km9447Zy6oewbQ4Y" data-title="Born Slippy (Nuxx)" hidden><span class="seq">05</span><span><span class="title">Born Slippy (Nuxx)</span><span class="credits">Underworld · Trainspotting</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/0vxvV7Km9447Zy6oewbQ4Y"><span class="direct-title">Born Slippy (Nuxx) · </span>&nbsp;Abrir en Spotify ↗</a></li>
+<li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="4Gsim7g0hmacs11Wr0FDCR" data-title="Wish (Komm zu mir)" hidden><span class="seq">06</span><span><span class="title">Wish (Komm zu mir)</span><span class="credits">Thomas D feat. Franka Potente · Run Lola Run</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/4Gsim7g0hmacs11Wr0FDCR"><span class="direct-title">Wish (Komm zu mir) · </span>&nbsp;Abrir en Spotify ↗</a></li>
+<li class="track"><button class="embed-only" type="button" aria-controls="player" data-id="0R6s0WCBfgQ2dByPFSBh63" data-title="Los Malaventurados No Lloran" hidden><span class="seq">07</span><span><span class="title">Los Malaventurados No Lloran</span><span class="credits">PXNDX · Amantes Sunt Amentes</span></span><span class="pick" aria-hidden="true">›</span></button><a class="spotify" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/0R6s0WCBfgQ2dByPFSBh63"><span class="direct-title">Los Malaventurados No Lloran · </span>&nbsp;Abrir en Spotify ↗</a></li></ol>
+<section id="player" aria-label="Reproductor de Spotify" hidden>
+<div class="tag">SPOTIFY / REPRODUCCIÓN MANUAL</div>
+<h2 id="selection" aria-live="polite">Elige una canción</h2><div id="embed"></div>
+<p>Si el reproductor no suena, pulsa «Abrir en Spotify» junto a la canción.</p>
+</section></div></main>
 <script>
-const tracks = [
- ['60kXdgdz1PRqbNQIAEU6s9','Gonna Fly Now','Bill Conti','Rocky'],
- ['30WNOfFRiqgebO4eRkCii8','GO!!!','FLOW','Naruto'],
- ['1WdkBwAsdznWw9xM69KmvR','Blue Bird','Ikimonogakari','Naruto Shippuden'],
- ['0vSVDF2fHaxL2L9eEmRdAK','Clubbed to Death (Kurayamino Variation)','Rob Dougan','The Matrix'],
- ['0vxvV7Km9447Zy6oewbQ4Y','Born Slippy (Nuxx)','Underworld','Trainspotting'],
- ['4Gsim7g0hmacs11Wr0FDCR','Wish (Komm zu mir)','Thomas D feat. Franka Potente','Run Lola Run'],
- ['0R6s0WCBfgQ2dByPFSBh63','Los Malaventurados No Lloran','PXNDX','Amantes Sunt Amentes']
-];
 const list = document.getElementById('tracks');
-const selection = document.getElementById('selection');
-const embed = document.getElementById('embed');
-const fallback = document.getElementById('fallback');
-const make = (tag, text, className) => {
-  const el = document.createElement(tag);
-  el.textContent = text;
-  if (className) el.className = className;
-  return el;
-};
-for (const [i, [id,title,artist,album]] of tracks.entries()) {
-  const row = make('li','');
-  const button = make('button','');
-  button.type = 'button';
-  button.setAttribute('aria-controls','player');
-  const details = make('span','');
-  details.append(make('span',title,'title'),make('span',artist+' · '+album,'credits'));
-  const chevron = make('span','›','pick');
-  chevron.setAttribute('aria-hidden','true');
-  button.append(make('span',String(i+1).padStart(2,'0'),'seq'),details,chevron);
-  button.addEventListener('click', () => {
-    if (button.getAttribute('aria-current') === 'true') return;
-    list.querySelector('[aria-current]')?.removeAttribute('aria-current');
-    button.setAttribute('aria-current','true');
-    selection.textContent = title;
-    const frame = make('iframe','');
-    frame.title = 'Spotify: '+title;
-    frame.src = 'https://open.spotify.com/embed/track/'+id;
-    frame.allow = 'clipboard-write; encrypted-media; fullscreen; picture-in-picture';
-    embed.replaceChildren(frame);
-    const link = make('a','Abrir en Spotify');
-    link.href = 'https://open.spotify.com/track/'+id;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    fallback.replaceChildren(link);
-    if (window.matchMedia('(max-width: 720px)').matches) {
-      document.getElementById('player').scrollIntoView({ block: 'start' });
-    }
-  });
-  row.append(button);
-  list.append(row);
+const player = document.getElementById('player');
+const layout = document.getElementById('layout');
+const hosted = location.protocol === 'https:';
+if (hosted) {
+  player.hidden = false;
+  for (const t of list.querySelectorAll('.direct-title')) t.hidden = true;
+  for (const button of list.querySelectorAll('button')) {
+    button.hidden = false;
+    button.addEventListener('click', () => {
+      if (button.getAttribute('aria-current') === 'true') return;
+      list.querySelector('[aria-current]')?.removeAttribute('aria-current');
+      button.setAttribute('aria-current','true');
+      document.getElementById('selection').textContent = button.dataset.title;
+      const frame = document.createElement('iframe');
+      frame.title = 'Spotify: ' + button.dataset.title;
+      frame.src = 'https://open.spotify.com/embed/track/' + button.dataset.id;
+      frame.allow = 'clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+      document.getElementById('embed').replaceChildren(frame);
+      if (window.matchMedia('(max-width: 720px)').matches) player.scrollIntoView({block:'start'});
+    });
+  }
+} else {
+  layout.style.gridTemplateColumns = '1fr';
 }
-</script>
-</body>
-</html>
+</script></body></html>
