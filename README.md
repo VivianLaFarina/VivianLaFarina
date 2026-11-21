@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-balance-static.png" />
-    <img src="./signal-cover-balance.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-accent-static.png" />
+    <img src="./signal-cover-accent.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
   </picture>
 </p>
 
@@ -38,8 +38,8 @@ I coordinate remediation of SAP purchasing data where date controls affect which
 Based in Bogotá, Colombia. I travel for work.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-balance-static.png" />
-  <img src="./delivery-maps-balance.gif" width="1000" alt="An orange scan moves down three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-accent-static.png" />
+  <img src="./delivery-maps-accent.gif" width="1000" alt="An orange scan moves down three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
 </picture>
 
 ## Supplier Master Data Lab
@@ -49,8 +49,8 @@ Based in Bogotá, Colombia. I travel for work.
 Two ERP systems can list the same supplier under different names and IDs. A false merge can be harder to unwind than a duplicate, so the prototype matches on **country + normalized tax ID**, never on name alone. It retains the source IDs for traceability and routes missing identifiers or conflicting entity types to a review queue.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-balance-static.png" />
-  <img src="./supplier-ascii-balance.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-accent-static.png" />
+  <img src="./supplier-ascii-accent.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
 </picture>
 
 | What the prototype checks | What the test demonstrates |
@@ -62,8 +62,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Tools & platforms
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-balance-static.png" />
-  <img src="./technology-stack-balance.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-accent-static.png" />
+  <img src="./technology-stack-accent.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
 **Delivery and governance:** Planisware, Jira, Confluence · **Enterprise data and analytics:** SAP master data, SQL, Power BI · **Cloud learning:** Azure, Snowflake, Microsoft Fabric
@@ -75,8 +75,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Supply chain
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-wide-static.png" />
-  <img src="./supply-chain-flow-wide.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Each active stop lights up yellow." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-wide-accent-static.png" />
+  <img src="./supply-chain-flow-wide-accent.gif" width="1060" alt="Supply chain in motion: an orange package moves from purchase order to warehouse, transit, and delivery. Each active stop lights up yellow." />
 </picture>
 
 **Purchase order** → **Warehouse** → **Transit** → **Delivery**
