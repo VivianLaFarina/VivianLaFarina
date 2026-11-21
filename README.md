@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-ember-static.png" />
-    <img src="./signal-cover-ember.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./signal-cover-balance-static.png" />
+    <img src="./signal-cover-balance.gif" width="1080" alt="Vivian La Farina | IT Data Project Lead. White waves with an orange accent break into particles that assemble the name." />
   </picture>
 </p>
 
@@ -14,8 +14,8 @@
     </td>
     <td width="39%" valign="middle" align="center">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-ember-static.png" />
-        <img src="./data-cubes-ember.gif" width="350" alt="Scattered data cubes assemble into layers and disperse again." />
+        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-balance-static.png" />
+        <img src="./data-cubes-balance.gif" width="350" alt="Scattered data cubes assemble into layers and disperse again." />
       </picture>
     </td>
   </tr>
@@ -38,8 +38,8 @@ I coordinate remediation of SAP purchasing data where date controls affect which
 Based in Bogotá, Colombia. I travel for work.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-ember-static.png" />
-  <img src="./delivery-maps-ember.gif" width="1000" alt="An orange scan moves down three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./delivery-maps-balance-static.png" />
+  <img src="./delivery-maps-balance.gif" width="1000" alt="An orange scan moves down three regional maps: the Americas; Europe, Middle East and Africa (EMEA); and Asia-Pacific (APAC)." />
 </picture>
 
 ## Supplier Master Data Lab
@@ -49,8 +49,8 @@ Based in Bogotá, Colombia. I travel for work.
 Two ERP systems can list the same supplier under different names and IDs. A false merge can be harder to unwind than a duplicate, so the prototype matches on **country + normalized tax ID**, never on name alone. It retains the source IDs for traceability and routes missing identifiers or conflicting entity types to a review queue.
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-ember-static.png" />
-  <img src="./supplier-ascii-ember.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./supplier-ascii-balance-static.png" />
+  <img src="./supplier-ascii-balance.gif" width="1000" alt="Four synthetic source rows produce two canonical suppliers and one review case, with traceability for all source rows." />
 </picture>
 
 | What the prototype checks | What the test demonstrates |
@@ -62,8 +62,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
 ## Tools & platforms
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-ember-static.png" />
-  <img src="./technology-stack-ember.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./technology-stack-balance-static.png" />
+  <img src="./technology-stack-balance.gif" width="1000" alt="Technologies grouped by delivery and governance, data and analytics, and cloud learning." />
 </picture>
 
 **Delivery and governance:** Planisware, Jira, Confluence · **Enterprise data and analytics:** SAP master data, SQL, Power BI · **Cloud learning:** Azure, Snowflake, Microsoft Fabric
@@ -91,8 +91,8 @@ Two ERP systems can list the same supplier under different names and IDs. A fals
     </td>
     <td width="54%" valign="middle" align="center">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-ember-static.png" />
-        <img src="./supply-chain-flow-ember.gif" width="410" alt="An orange package moves through purchase order, warehouse, transit, and delivery; each stop lights up yellow." />
+        <source media="(prefers-reduced-motion: reduce)" srcset="./supply-chain-flow-balance-static.png" />
+        <img src="./supply-chain-flow-balance.gif" width="410" alt="An orange package moves through purchase order, warehouse, transit, and delivery; each stop lights up yellow." />
       </picture>
     </td>
   </tr>
