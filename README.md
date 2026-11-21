@@ -14,8 +14,8 @@
     </td>
     <td width="39%" valign="middle" align="center">
       <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./particle-runner-static.png" />
-        <img src="./particle-runner.gif" width="350" alt="" />
+        <source media="(prefers-reduced-motion: reduce)" srcset="./data-cubes-static.png" />
+        <img src="./data-cubes.gif" width="350" alt="Scattered data cubes assemble into layers and disperse again." />
       </picture>
     </td>
   </tr>
